@@ -1,0 +1,43 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #F0DAA9;
+  }
+
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-mb{ 
+    margin: 0px 5px 5px 5px;  
+  }
+
+  .navbar-mb .container-mb{
+    background-color: var(--orange);
+    border-radius: 20px;
+    height: 60px;
+    box-shadow: 0px 5px 5px 3px var(--brown);  }
+
+  .navbar-mb .container-mb a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+.nav-home-mb{
+    color: var(--grey);
+    text-shadow: 3px 2px 3px var(--brown);
+}
+
+.nav-explore-mb{
+    color: var(--grey);
+    text-shadow: 3px 2px 3px var(--brown);
+}
+
+.nav-contact-mb{
+    color: var(--grey);
+    text-shadow: 3px 2px 3px var(--brown);
+    
+}

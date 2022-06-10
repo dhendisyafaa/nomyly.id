@@ -1,0 +1,28 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #F0DAA9;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-lg{
+    background-color: var(--orange);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 10px 3px var(--cream);
+}
+
+.nav-home{
+    font-weight: 900;
+}
+
+.nav-explore{
+    font-weight: 900;
+}
+
+.nav-contact{
+    font-weight: 900;
+}

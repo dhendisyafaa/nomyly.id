@@ -1,0 +1,71 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #F0DAA9;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.deskripsi-toko{
+    background-color: var(--grey);
+    border-radius: 20px;
+}
+
+.deskripsi-toko h5{
+    color: var(--brown);
+}
+
+.info-toko{
+    background-color: var(--grey);
+}
+
+.info-toko h5{
+    color: var(--brown);
+}
+
+.logo-toko img{
+    border-radius: 100%;
+}
+
+.button-detail-toko a{
+    border: none;
+    border-radius: 20px;
+    background-color: var(--orange);
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--brown);
+}
+
+.button-detail-toko a:hover{
+    background-color: var(--brown);
+    color: white;
+}
+
+.order-toko{
+    background-color: var(--grey);
+}
+
+.order-toko h5{
+    color: var(--brown);
+}
+
+.button-order-toko a{
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--orange);
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--brown);
+}
+
+.button-order-toko a:hover{
+    background-color: var(--brown);
+    color: white;
+}

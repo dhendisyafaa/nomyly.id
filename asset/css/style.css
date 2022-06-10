@@ -1,0 +1,202 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #fbe9c3;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detail-category p{  
+    color: black;
+    font-weight: 500;
+}
+
+.category .inner-category{
+    text-decoration: none;
+}
+
+.icon-category img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* responsive font size and image for category */
+
+@media only screen and (max-width: 600px){
+
+    .detail-category p{
+        font-size: 9px;
+    }
+  
+}
+
+@media only screen and (min-width: 600px){
+
+    .detail-category p{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+
+    .detail-category p{
+        font-size: 16px;
+    }
+
+}
+
+/* card product */
+
+.card-body .btn-detail-product{
+    background-color: var(--orange);
+    color: black;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.card-body .btn-detail-product:hover{
+    background-color: var(--brown);
+    color: white;
+}
+
+/* font size card */
+
+@media only screen and (max-width: 600px){ 
+/* mobile */
+
+    .card-category-name p{
+        font-weight: 600;
+
+    }
+
+    .lihat-semua a{
+        color: var(--orange);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .card-body .card-title{
+        font-size: 12px;
+    }
+
+    .card-body h6{
+        font-size: 10px;
+    }
+
+    .card-body p{
+        font-size: 10px;
+    }
+
+    .card-body a{
+        font-size: 8px;
+        padding: 2px 3px 2px 3px;
+    }
+
+}
+
+@media only screen and (min-width: 600px){
+/* tablet */
+
+    .card-category-name p{
+        font-weight: 600;
+        font-size: 18px;
+        
+    }
+
+    .lihat-semua a{
+        color: var(--orange);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .card-body .card-title{
+        font-size: 14px;
+    }
+
+    .card-body h6{
+        font-size: 12px;
+    }
+
+    .card-body p{
+        font-size: 12px;
+    }
+
+    .card-body a{
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .header-card-product, .row-card{       
+        margin: 0;     
+    }
+
+    .card .card-img-top{
+        width: 20vh;    
+        margin: auto;
+    }
+
+    .card{
+        width: fit-content;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px){
+/* dekstop */
+
+    .card-category-name p{
+        font-weight: 600;
+        font-size: 20px;
+        
+    }
+
+    .lihat-semua a{
+        color: var(--orange);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .card-body .card-title{
+        font-size: 18px;
+    }
+
+    .card-body h6{
+        font-size: 16px;
+    }
+
+    .card-body p{
+        font-size: 14px;
+    }
+
+    .card-body a{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .header-card-product, .row-card{       
+        margin-left: 80px;
+        margin-right: 80px;     
+    }
+
+    .card{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .card .card-img-top{
+        width: 35vh;
+        margin: auto;
+    }
+
+}

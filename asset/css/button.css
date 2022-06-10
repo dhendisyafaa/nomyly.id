@@ -1,0 +1,26 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #F0DAA9;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-toko{
+    background-color: var(--orange);
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button-toko:hover{
+    background-color: var(--brown);
+    color: var(--grey);
+    text-shadow: none;
+}

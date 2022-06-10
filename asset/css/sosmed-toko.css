@@ -1,0 +1,43 @@
+:root{
+    --orange: #FBC531;
+    --grey: #F5F5F5;
+    --brown: #735400;
+    --cream: #F0DAA9;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon-toko img{
+    border-radius: 100%;
+    width: 100%;
+    height: 50%;
+}
+
+.sosmed{
+    color: var(--brown);
+    font-weight: 600;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: var(--orange);
+    color: black;
+    border-radius: 100%;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icon:hover {
+    background-color: var(--brown);
+    color: var(--grey);
+}
